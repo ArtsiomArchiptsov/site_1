@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <a href="../site_1/index.html">Главная страница</a>
+    <a href="../site_1/info/about.html">Информация о нас</a>
+    <a href="../site_1/registration.html">Регистрация</a>
+    <h1>Регестрация</h1>
+    <form action="#">
+        Имя:<input type="text" placeholder="Введите Ваше имя"><br>
+        Фамилия:<input type="text" placeholder="Введите Вашу фамилию"><br>
+        Отчество:<input type="text" placeholder="Введите Ваше отчество"><br>
+        Страна:<select>
+            <option value="1">Республика Беларусь</option>
+            <option value="2">Российская Федерация</option>
+            <option value="3">Казахстан</option>
+            <option value="4">Украина</option>
+            <option value="5">Республика Армения</option>
+        </select>
+        город:<input type="text" placeholder="Введите Ваш город"><br>
+        Адрес:<select>
+            <option value="1">ул.</option>
+            <option value="2">пр.-т</option>
+            <option value="3">пер.</option>
+            <option value="4">б.-р</option>
+        </select><input type="text" placeholder="Введите Ваш адрес"><br>
+        <label for="phone">Номер телефона:</label>
+        <select>
+            <option value="1">+375</option>
+            <option value="2">+7</option>            
+            <option value="3">+380</option>
+            <option value="4">+374</option>
+        </select>
+        <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required><br>
+        E-mail:<input type="email" placeholder="Введите Вашу почту"><br>
+        <button type="submit">Отправить</button>
+        <button type="reset">Стереть</button>
+    </form>
+
+</body>
+
+</html>
